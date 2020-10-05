@@ -1,0 +1,113 @@
+* {
+    font-family:'Sansita Swashed' , sans-serif;
+}
+
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #dd2424;
+}
+.container{
+    display: flex;
+}
+.menu-esquerda{
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100vh;
+    background-color: #8F0000;
+    align-items:center ;
+    justify-content: space-around;
+    padding: 2rem;
+    color: bisque;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.profile-photo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 25%;
+    width: 75%;
+    height: 10vh;
+    background-color: rgb(201, 7, 7);
+    color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    z-index: 1;
+}
+
+.main{
+    position: relative;
+    left: 25%;
+    margin: 1rem;
+    color: rgb(206, 183, 183);
+}
+a {
+    text-decoration:none;
+    color: bisque;
+}
+a:hover{
+    text-decoration:underline;
+}
+.section{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem ;
+    padding-bottom: 5rem;
+    max-width: 75vw;
+    font-size: 1.5rem;
+}
+.section .section-content{
+    min-height: 90vh;
+}
+.foto-hobbie{
+    width: 450px;
+    height: 300px;
+    transition: 3s;
+    border-radius: 8%;
+}
+.foto-hobbie:hover{
+    width: 600px;
+    height: 400px;
+}
+.sobre{
+    transition: 2s;
+}
+.sobre:hover{
+    transform: rotate(360deg);
+}
+.hobbies{
+    transition: 2s;
+}
+.hobbies:hover{
+    transform: rotate(360deg);
+}
+.ensino{
+    transition: 2s;
+}
+.ensino:hover{
+    transform: rotate(360deg);
+}
